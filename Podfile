@@ -7,7 +7,6 @@ target 'TVLive' do
 
   # Pods for TVLive
 	pod 'XCDYouTubeKit', '~> 2.5.3'
-	pod 'SlideMenuControllerSwift', '~> 3.0.0'
 
   target 'TVLiveTests' do
     inherit! :search_paths

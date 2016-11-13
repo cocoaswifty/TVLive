@@ -1,15 +1,12 @@
 PODS:
-  - SlideMenuControllerSwift (3.0.0)
   - XCDYouTubeKit (2.5.3)
 
 DEPENDENCIES:
-  - SlideMenuControllerSwift (~> 3.0.0)
   - XCDYouTubeKit (~> 2.5.3)
 
 SPEC CHECKSUMS:
-  SlideMenuControllerSwift: 9c0a84f9a3fba51681debd7be77617094562ebcc
   XCDYouTubeKit: 90690f9e3523735dc93b8024269d991b0cfffe78
 
-PODFILE CHECKSUM: dfcacd4c29620750b87640efeab183f0959ff8fd
+PODFILE CHECKSUM: 81d79daaf6e4fcde046d2f645f6b24ceaff05f8e
 
 COCOAPODS: 1.1.1
