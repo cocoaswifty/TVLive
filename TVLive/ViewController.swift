@@ -47,7 +47,7 @@ class ViewController: UIViewController {
             videoPlayerViewController.moviePlayer.stop()
             videoPlayerViewController.videoIdentifier = identifier
             
-            DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1), execute: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(700), execute: {
                 self.videoPlayerViewController.moviePlayer.play()
             })
             
@@ -103,6 +103,8 @@ class ViewController: UIViewController {
             }
         } else if recognizer.direction == .left {
             print("Go Left")
+            videoPlayerViewController.moviePlayer.play()
+            
             if point.x >= 50 {
                 UIView.animate(withDuration: 0.25, animations: {
                     self.pickerView.frame.origin = CGPoint(x: -self.view.frame.width, y: 0)
