@@ -1,0 +1,15 @@
+PODS:
+  - ENSwiftSideMenu (0.1.1)
+  - XCDYouTubeKit (2.5.3)
+
+DEPENDENCIES:
+  - ENSwiftSideMenu (~> 0.1.1)
+  - XCDYouTubeKit (~> 2.5.3)
+
+SPEC CHECKSUMS:
+  ENSwiftSideMenu: a934caefbe811e4925f172009349da4a49901307
+  XCDYouTubeKit: 90690f9e3523735dc93b8024269d991b0cfffe78
+
+PODFILE CHECKSUM: 2457e94eb093f4d1ba3c8d8812fe222280d0f7bd
+
+COCOAPODS: 1.1.1
