@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D28E2921DD82EF400C5CB81 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E2911DD82EF400C5CB81 /* RightViewController.swift */; };
+		7D28E2941DD82F1100C5CB81 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E2931DD82F1100C5CB81 /* SwiftViewController.swift */; };
+		7D28E2981DD82F5D00C5CB81 /* ExSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E2971DD82F5D00C5CB81 /* ExSlideMenuController.swift */; };
+		7D28E2A11DD830B000C5CB81 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E2991DD830B000C5CB81 /* String.swift */; };
+		7D28E2A21DD830B000C5CB81 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E29A1DD830B000C5CB81 /* UITableViewExtension.swift */; };
+		7D28E2A31DD830B000C5CB81 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E29B1DD830B000C5CB81 /* UIViewController.swift */; };
+		7D28E2A41DD830B000C5CB81 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E29C1DD830B000C5CB81 /* UIImageView.swift */; };
+		7D28E2A51DD830B000C5CB81 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E29D1DD830B000C5CB81 /* UIImage.swift */; };
+		7D28E2A61DD830B000C5CB81 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E29E1DD830B000C5CB81 /* UIView.swift */; };
+		7D28E2A71DD830B000C5CB81 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E29F1DD830B000C5CB81 /* UIColor.swift */; };
+		7D28E2A81DD830B000C5CB81 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E2A01DD830B000C5CB81 /* UIApplication.swift */; };
+		7D28E2AC1DD8320300C5CB81 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E2A91DD8320300C5CB81 /* BaseTableViewCell.swift */; };
+		7D28E2AD1DD8320300C5CB81 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28E2AA1DD8320300C5CB81 /* DataTableViewCell.swift */; };
+		7D28E2AE1DD8320300C5CB81 /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D28E2AB1DD8320300C5CB81 /* DataTableViewCell.xib */; };
 		7D64967F1DD8257500A03144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64967E1DD8257500A03144 /* AppDelegate.swift */; };
-		7D6496811DD8257500A03144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6496801DD8257500A03144 /* ViewController.swift */; };
+		7D6496811DD8257500A03144 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6496801DD8257500A03144 /* MainViewController.swift */; };
 		7D6496841DD8257500A03144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6496821DD8257500A03144 /* Main.storyboard */; };
 		7D6496871DD8257500A03144 /* TVLive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D6496851DD8257500A03144 /* TVLive.xcdatamodeld */; };
 		7D6496891DD8257500A03144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6496881DD8257500A03144 /* Assets.xcassets */; };
@@ -44,9 +58,23 @@
 		12DAE299E598D4191D69F972 /* Pods-TVLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVLiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVLiveUITests/Pods-TVLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		614A8ADB68296120C61C6A6F /* Pods-TVLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVLive/Pods-TVLive.release.xcconfig"; sourceTree = "<group>"; };
 		66D3F5C90A169A34E20CF433 /* Pods_TVLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D28E2911DD82EF400C5CB81 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		7D28E2931DD82F1100C5CB81 /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		7D28E2971DD82F5D00C5CB81 /* ExSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSlideMenuController.swift; sourceTree = "<group>"; };
+		7D28E2991DD830B000C5CB81 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		7D28E29A1DD830B000C5CB81 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		7D28E29B1DD830B000C5CB81 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		7D28E29C1DD830B000C5CB81 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		7D28E29D1DD830B000C5CB81 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		7D28E29E1DD830B000C5CB81 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7D28E29F1DD830B000C5CB81 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		7D28E2A01DD830B000C5CB81 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		7D28E2A91DD8320300C5CB81 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		7D28E2AA1DD8320300C5CB81 /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		7D28E2AB1DD8320300C5CB81 /* DataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
 		7D64967B1DD8257500A03144 /* TVLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D64967E1DD8257500A03144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D6496801DD8257500A03144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D6496801DD8257500A03144 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7D6496831DD8257500A03144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D6496861DD8257500A03144 /* TVLive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TVLive.xcdatamodel; sourceTree = "<group>"; };
 		7D6496881DD8257500A03144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +129,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7D28E2AF1DD8321400C5CB81 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7D28E2A91DD8320300C5CB81 /* BaseTableViewCell.swift */,
+				7D28E2AA1DD8320300C5CB81 /* DataTableViewCell.swift */,
+				7D28E2AB1DD8320300C5CB81 /* DataTableViewCell.xib */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		7D28E2B01DD8322700C5CB81 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7D28E2991DD830B000C5CB81 /* String.swift */,
+				7D28E29A1DD830B000C5CB81 /* UITableViewExtension.swift */,
+				7D28E29B1DD830B000C5CB81 /* UIViewController.swift */,
+				7D28E29C1DD830B000C5CB81 /* UIImageView.swift */,
+				7D28E29D1DD830B000C5CB81 /* UIImage.swift */,
+				7D28E29E1DD830B000C5CB81 /* UIView.swift */,
+				7D28E29F1DD830B000C5CB81 /* UIColor.swift */,
+				7D28E2A01DD830B000C5CB81 /* UIApplication.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		7D6496721DD8257400A03144 = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +180,12 @@
 			isa = PBXGroup;
 			children = (
 				7D64967E1DD8257500A03144 /* AppDelegate.swift */,
-				7D6496801DD8257500A03144 /* ViewController.swift */,
+				7D6496801DD8257500A03144 /* MainViewController.swift */,
+				7D28E2911DD82EF400C5CB81 /* RightViewController.swift */,
+				7D28E2931DD82F1100C5CB81 /* SwiftViewController.swift */,
+				7D28E2971DD82F5D00C5CB81 /* ExSlideMenuController.swift */,
+				7D28E2B01DD8322700C5CB81 /* Extension */,
+				7D28E2AF1DD8321400C5CB81 /* TableViewCell */,
 				7D6496821DD8257500A03144 /* Main.storyboard */,
 				7D6496881DD8257500A03144 /* Assets.xcassets */,
 				7D64968A1DD8257500A03144 /* LaunchScreen.storyboard */,
@@ -290,6 +348,7 @@
 				7D64968C1DD8257500A03144 /* LaunchScreen.storyboard in Resources */,
 				7D6496891DD8257500A03144 /* Assets.xcassets in Resources */,
 				7D6496841DD8257500A03144 /* Main.storyboard in Resources */,
+				7D28E2AE1DD8320300C5CB81 /* DataTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +396,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		560FD3A33745B4321AE2DDE2 /* [CP] Check Pods Manifest.lock */ = {
@@ -352,7 +411,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		701DE75593DC8B6997FB539B /* [CP] Check Pods Manifest.lock */ = {
@@ -367,7 +426,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		770AD90EECB2659D41E813C4 /* [CP] Embed Pods Frameworks */ = {
@@ -452,9 +511,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D28E2A81DD830B000C5CB81 /* UIApplication.swift in Sources */,
+				7D28E2941DD82F1100C5CB81 /* SwiftViewController.swift in Sources */,
+				7D28E2A21DD830B000C5CB81 /* UITableViewExtension.swift in Sources */,
 				7D6496871DD8257500A03144 /* TVLive.xcdatamodeld in Sources */,
-				7D6496811DD8257500A03144 /* ViewController.swift in Sources */,
+				7D28E2A31DD830B000C5CB81 /* UIViewController.swift in Sources */,
+				7D28E2A71DD830B000C5CB81 /* UIColor.swift in Sources */,
+				7D28E2A41DD830B000C5CB81 /* UIImageView.swift in Sources */,
+				7D6496811DD8257500A03144 /* MainViewController.swift in Sources */,
+				7D28E2A11DD830B000C5CB81 /* String.swift in Sources */,
+				7D28E2921DD82EF400C5CB81 /* RightViewController.swift in Sources */,
 				7D64967F1DD8257500A03144 /* AppDelegate.swift in Sources */,
+				7D28E2981DD82F5D00C5CB81 /* ExSlideMenuController.swift in Sources */,
+				7D28E2AC1DD8320300C5CB81 /* BaseTableViewCell.swift in Sources */,
+				7D28E2AD1DD8320300C5CB81 /* DataTableViewCell.swift in Sources */,
+				7D28E2A61DD830B000C5CB81 /* UIView.swift in Sources */,
+				7D28E2A51DD830B000C5CB81 /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,6 +783,7 @@
 				7D6496A81DD8257500A03144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D6496A91DD8257500A03144 /* Build configuration list for PBXNativeTarget "TVLiveTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +792,7 @@
 				7D6496AB1DD8257500A03144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D6496AC1DD8257500A03144 /* Build configuration list for PBXNativeTarget "TVLiveUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +801,7 @@
 				7D6496AE1DD8257500A03144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
